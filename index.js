@@ -21,7 +21,7 @@ async function handleAssetsFetch(request, env) {
 
 
 export default {
-  async fetch(request) {
-    return handleAssetsFetch(request);
+  async fetch(request, context, env) {
+    return handleAssetsFetch(request, env);
   }
 };
