@@ -13,7 +13,8 @@ async function handleRequest(request) {
 
 
 async function handleAssetsFetch(request, env) {
-    return await env.Assets.fetch("http://a.com/vue.svg");
+    // return await env.Assets.fetch("http://a.com/vue1.svg");
+    return await env.Assets.fetch("http://a.com/mochen1.txt");
     // return await env.Assets.fetch(new Request("https://fake.host/path"))
     // return await env.Assets.fetch( "https://fake.host/test-page");
     // return await env.Assets.fetch("/path")
