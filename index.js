@@ -34,7 +34,7 @@ export default {
   async fetch(request, context, env) {
     const action = request.headers.get("action");
     if (action === "assets_fetch") {
-      return handleAssetsFetch(request);
+      return handleAssetsFetch(request, env);
     }
 
     if (action === "self_fetch_assets") {
