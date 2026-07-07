@@ -4,7 +4,7 @@
   "buildCommand": "npm run build",
   "entry": "/index.js",
   "assets": {
-    "directory": "/src/assets"",
+    "directory": "/src/assets",
     "notFoundStrategy": "404Page"
   }
 }
